@@ -25,10 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "i love mjeed
-        ❤️",
+        name: "Made with ❤️",
         // Activity type number (0 = Playing).
-        type: 3, 
+        type: 0, 
       },
     ],
   },
@@ -544,6 +543,10 @@ export function getRandomColor() {
 }
 
 export default botConfig;
+
+
+
+
 
 
 
